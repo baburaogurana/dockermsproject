@@ -2,25 +2,25 @@
 version: "3.8"
 services:
   movies:
-    image: baburaogurana/mmovies:latest
+    image: baburaogurana/mmovies
     ports:
       - 91:80
     deploy:
       replicas: 3
   train:
-    image: baburaogurana/train:latest
+    image: baburaogurana/train
     ports:
       - 92:80
     deploy:
       replicas: 3
   recharge:
-    image: baburaogurana/recharge:latest
+    image: baburaogurana/recharge
     ports:
       - 93:80
     deploy:
       replicas: 3
   dth:
-    image: baburaogurana/dth:latest
+    image: baburaogurana/dth
     ports:
       - 94:80
     deploy:
