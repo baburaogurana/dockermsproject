@@ -2,7 +2,7 @@
 version: "3.8"
 services:
   movies:
-    image: baburaogurana/mmovies
+    image: baburaogurana/movies
     ports:
       - 91:80
     deploy:
