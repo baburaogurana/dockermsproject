@@ -2,25 +2,25 @@
 version: "3.8"
 services:
   movies:
-    image: baburaogurana/movies
+    image: baburaogurana/moviesv1
     ports:
       - 91:80
     deploy:
       replicas: 3
   train:
-    image: baburaogurana/train
+    image: baburaogurana/trainv1
     ports:
       - 92:80
     deploy:
       replicas: 3
   recharge:
-    image: baburaogurana/recharge
+    image: baburaogurana/rechargev1
     ports:
       - 93:80
     deploy:
       replicas: 3
   dth:
-    image: baburaogurana/dth
+    image: baburaogurana/dthv1
     ports:
       - 94:80
     deploy:
